@@ -2,13 +2,23 @@
 
 PoC for serverless website performance testing. 
 
-The easiest way to get this up and running is with [Vercel](https://vercel.com). The lambda can be deployed to each [Vercel region](https://vercel.com/docs/v2/edge-network/regions#routing) (the origins) to run the test from 15+ different locations around the world. Get started by using the deploy button below.
+The easiest way to get this up and running is with [Vercel](https://vercel.com). The API can be deployed to each [Vercel region](https://vercel.com/docs/v2/edge-network/regions#routing) (the origins) to run the test from 15+ different locations around the world. Get started by using the deploy button below.
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/jpbow/lighthouse-lambda)
 
+As Vercel functions are just AWS Lambda functions under the hood, it's likely that this code will work on AWS without much alteration - but this hasn't been tested.
+
 ## Usage
 
-Deploy to production in each region using the command `now --regions REGION_ID --prod`
+Make sure to have the [Vercel CLI](https://vercel.com/download) installed.
+```
+npm i -g vercel
+```
+
+Deploy the API to each region that you want to test from.
+```
+vercel --regions REGION_ID --prod
+```
 
 Once deployed, make `GET` requests each API endpoint like so:
 
