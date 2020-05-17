@@ -1,14 +1,14 @@
 # Lighthouse Lambda
 
-<a href="/import/project?template=https://github.com/jpbow/lighthouse-lambda">
-  <img src="https://vercel.com/button" alt="Deploy" />
-</a>
-
-## Intro
-
 PoC for serverless worldwide website performance testing. Run Google Lighthouse Performance tests using lambda functions.
 
 A lambda can be deployed to each [Vercel region](https://vercel.com/docs/v2/edge-network/regions#routing) (the origins) to test from 15+ different locations around the world.  
+
+## Quick Deploy
+
+Easily deploy with [Vercel](https://vercel.com):
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/jpbow/lighthouse-lambda)
 
 ## Usage
 
