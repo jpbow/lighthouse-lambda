@@ -1,6 +1,6 @@
 # Lighthouse Lambda
 
-PoC for serverless worldwide website performance testing. Run Google Lighthouse Performance tests using lambda functions.
+PoC for serverless website performance testing. 
 
 A lambda can be deployed to each [Vercel region](https://vercel.com/docs/v2/edge-network/regions#routing) (the origins) to test from 15+ different locations around the world.  
 
