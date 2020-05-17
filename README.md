@@ -2,11 +2,7 @@
 
 PoC for serverless website performance testing. 
 
-A lambda can be deployed to each [Vercel region](https://vercel.com/docs/v2/edge-network/regions#routing) (the origins) to test from 15+ different locations around the world.  
-
-## Quick Deploy
-
-Easily deploy with [Vercel](https://vercel.com):
+The easiest way to get this up and running is with [Vercel](https://vercel.com). The lambda can be deployed to each [Vercel region](https://vercel.com/docs/v2/edge-network/regions#routing) (the origins) to run the test from 15+ different locations around the world. Get started by using the deploy button below.
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/jpbow/lighthouse-lambda)
 
