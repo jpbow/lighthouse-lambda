@@ -12,7 +12,7 @@ A lambda can be deployed to each [Vercel region](https://vercel.com/docs/v2/edge
 
 ## Usage
 
-Deploy to production in each region using the command `now --regions REGION_ID --prod`
+Deploy to production in each region using the command `vercel --regions REGION_ID --prod`
 
 Once deployed, make `GET` requests each API endpoint like so:
 
