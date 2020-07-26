@@ -3,14 +3,15 @@
   "version": "1.0.0",
   "private": true,
   "dependencies": {
-    "@now/node": "1.6.0",
-    "chrome-aws-lambda": "3.0.4",
-    "lighthouse": "5.6.0",
+    "@now/node": "1.7.3",
+    "chrome-aws-lambda": "3.1.1",
+    "lighthouse": "6.1.1",
     "lighthouse-logger": "1.2.0",
-    "puppeteer-core": "3.0.4"
+    "puppeteer-core": "3.1.0"
   },
   "devDependencies": {
-    "@types/puppeteer": "2.0.1",
+    "@types/node": "14.0.26",
+    "@types/puppeteer": "3.0.1",
     "prettier": "2.0.5"
   },
   "engines": {
